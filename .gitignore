@@ -12,3 +12,4 @@ target/
 
 # Database
 *.db
+!chat.db
