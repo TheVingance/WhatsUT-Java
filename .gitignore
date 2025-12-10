@@ -1,0 +1,14 @@
+# Maven
+target/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+
+# Database
+*.db
