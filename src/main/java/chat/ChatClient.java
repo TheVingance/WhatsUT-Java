@@ -22,7 +22,7 @@ public class ChatClient extends UnicastRemoteObject implements IChatClient {
     private Map<String, List<String>> unreadMessages = new HashMap<>();
 
     public ChatClient(String username, IChatServer server, ChatUI ui) throws RemoteException {
-        super(); // O argumento 'this' é o objeto Callback sendo enviado
+        super(); // O argumento 'this' eh o objeto Callback sendo enviado
                  // return server.login(username, password, this);
         this.username = username;
         this.server = server;
